@@ -1,0 +1,38 @@
+.sendForm {
+  display: flex;
+  align-items: center;
+}
+
+.textarea {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #F5F7FB;
+  resize: none;
+  box-shadow: 0px 1px 2px 0px #1D21261A;
+  border: none;
+  min-height: 5px;
+  box-sizing: border-box;
+  padding: 15px;
+  overflow : auto;
+}
+
+.button {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0066CC;
+  margin-left: 30px;
+  border-radius: 20px;
+  width: 120px;
+  border: none;
+  font: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button:hover {
+
+}
+.button:active {
+
+}

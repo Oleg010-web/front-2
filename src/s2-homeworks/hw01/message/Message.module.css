@@ -1,0 +1,43 @@
+.message {
+  align-self: flex-end;
+
+}
+
+.imageAndText {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.imageAndText img {
+  width: 48px;
+  height: 48px;
+}
+
+.text {
+  background-color: #0066CC;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.text:after {
+
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: right;
+  font: Montserrat;
+}
+
+.messageText {
+ font: Montserrat;
+}
+
+.time {
+  text-align: right;
+  margin-top: 5px;
+  padding-right: 5px;
+}

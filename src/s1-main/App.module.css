@@ -1,0 +1,26 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    max-width: 1220px;
+    width: 100%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    padding: 30px 70px;
+    box-sizing: border-box;
+}
+
+.hwTitle {
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.hwMessagesContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
