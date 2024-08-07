@@ -5,6 +5,7 @@ import s2 from '../../s1-main/App.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s from './HW6.module.css'
 
+
 /*
  * 1 - в файле SuperEditableSpan.tsx дописать логику функций onEnterCallback, onBlurCallback, onDoubleClickCallBack
  * 2 - дописать логику функции restore
@@ -17,9 +18,15 @@ const HW6 = () => {
     const save = () => {
         saveState<string>('hw6-editable-span-value', value)
     }
+
     const restore = () => {
         // делают студенты
-
+        console.log("clicked");
+        // let oldValueFromLC = localStorage.getItem('hw6-editable-span-value');
+        // if(oldValueFromLC){
+        //    setValue(oldValueFromLC) 
+        // }
+        setValue(restoreState('hw6-editable-span-value', value))
     }
 
     return (
@@ -33,6 +40,7 @@ const HW6 = () => {
                         id={'hw6-spanable-input'}
                         value={value}
                         onChangeText={setValue}
+                        
                         spanProps={{
                             id: 'hw6-editable-span',
                             defaultText: 'enter text...',

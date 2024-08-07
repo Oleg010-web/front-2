@@ -1,71 +1,68 @@
 .button {
+  width: Hug (129px)px;
+  height: Hug (30px)px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
 }
 
 .disabled {
-  width: 133px;
-  height: 30px;
-  top: 369px;
-  left: 574px;
-  padding: 5px 24px 5px 24px;
+  width: Hug (129px)px;
+  height: Hug (30px)px;
+  padding: 5px 24px;
   gap: 10px;
-  border-radius: 3px 0px 0px 0px;
-  opacity: 0.5px;
-  background: #004d99;
-  border: none;
+  border-radius: 3px 0 0 0;
+  opacity: 0.5;
   background: #002E5C;
-
+  border: none;
 }
 
 .secondary {
-  width: 176px;
-  height: 30px;
-  top: 418px;
-  left: 574px;
+  width: Hug (129px)px;
+  height: Hug (30px)px;
   padding: 5px 24px 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
   border: none;
-  opacity: 0px;
+  opacity: 0;
   border: 1px solid #0066cc;
+  opacity: 0.5;
   background: #FFFFFF;
   color: #0066cc;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
 .default {
-  width: 132px;
-  height: 30px;
-  top: 261px;
-  left: 574px;
+  width: Hug (129px)px;
+  height: Hug (30px)px;
   padding: 5px 24px 5px 24px;
   gap: 10px;
-  border: none;
   border-radius: 3px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 1;
   background: #0066cc;
+  border: none;
 }
 
 .red {
   width: 129px;
   height: 30px;
-  top: 315px;
-  left: 576px;
-  padding: 5px 24px 5px 24px;
+  padding: 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 1;
   border: none;
   background: #cc1439;
 }
 
 .default:hover {
   width: 167px;
-  height: 30px;
-  top: 261px;
   left: 574px;
   padding: 5px 24px 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 1;
   background: #0080ff;
   border: none;
 }
@@ -73,12 +70,10 @@
 .red:hover {
   width: 167px;
   height: 30px;
-  top: 315px;
-  left: 574px;
-  padding: 5px 24px 5px 24px;
+  padding: 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 1;
   border: none;
 }
 
@@ -86,13 +81,11 @@
   background: #E5F0FA;
   width: 167px;
   height: 30px;
-  top: 418px;
-  left: 574px;
-  padding: 5px 24px 5px 24px;
+  padding: 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 0.5;
 }
 
 .default:active {

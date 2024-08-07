@@ -1,14 +1,20 @@
 .input:focus {
-  border: 1px solid #D1D1D1
+  border: 1px solid #D1D1D1;
 }
 
 .input {
-  width: 372px;
+  width: 276px;
   height: 36px;
   dispaly: block;
   gap: 0px;
   border-radius: 5px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 1;
+  padding: 10px 15px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: #000000;
 }
 
 .inputWrapper {
@@ -18,17 +24,10 @@
 }
 
 .superInput {
-  width: 372px;
-  height: 36px;
-  dispaly: block;
-  gap: 0px;
-  border-radius: 5px 0px 0px 0px;
-  opacity: 0px;
   border: none;
 }
 
 .errorInput {
-
   border: 1px solid #CC1439
 }
 
