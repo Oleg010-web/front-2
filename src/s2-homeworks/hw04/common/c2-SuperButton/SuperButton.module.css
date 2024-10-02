@@ -5,13 +5,13 @@
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
   opacity: 0px;
+  color: white;
 }
 
 .disabled {
   width: Hug (129px)px;
   height: Hug (30px)px;
   padding: 5px 24px;
-  gap: 10px;
   border-radius: 3px 0 0 0;
   opacity: 0.5;
   background: #002E5C;
@@ -46,8 +46,8 @@
 }
 
 .red {
-  width: 129px;
-  height: 30px;
+  width: Hug (129px)px;
+  height: Hug (30px)px;
   padding: 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
@@ -57,19 +57,18 @@
 }
 
 .default:hover {
-  width: 167px;
-  left: 574px;
+  width: Hug (129px)px;
   padding: 5px 24px 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
-  opacity: 1;
+  opacity: 0.5;
   background: #0080ff;
   border: none;
 }
 
 .red:hover {
-  width: 167px;
-  height: 30px;
+  width: Hug (129px)px;
+  height: Hug (30px)px;
   padding: 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
@@ -79,8 +78,8 @@
 
 .secondary:hover {
   background: #E5F0FA;
-  width: 167px;
-  height: 30px;
+  width: Hug (129px)px;
+  height: Hug (30px)px;
   padding: 5px 24px;
   gap: 10px;
   border-radius: 3px 0px 0px 0px;
@@ -98,13 +97,10 @@
 }
 
 .button:disabled {
-  width: 133px;
+  width: Hug (129px)px;
   height: 30px;
-  top: 369px;
-  left: 574px;
   padding: 5px 24px 5px 24px;
-  gap: 10px;
   border-radius: 3px 0px 0px 0px;
-  opacity: 0.5px;
+  opacity: 0.5;
   background: #002E5C;
 }

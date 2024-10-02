@@ -1,15 +1,49 @@
 .radio {
+  appearance: none; 
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  border: 2px solid black; 
+  border-radius: 50%; 
+  background-color: transparent; 
+  outline: none; 
+  cursor: pointer; 
+  margin-bottom: 10px;
 }
 
 .radio::before {
+
 }
 
 
 .radio:checked::before {
+  content: '';
+  width: 12px; /* Размер внутреннего круга */
+  height: 12px;
+  background-color: black; /* Цвет внутреннего круга */
+  border-radius: 50%; /* Делаем его круглым */
+  position: relative;
+  left: 2px; /* Центрируем внутренний круг */
+  top: 2px; /* Центрируем внутренний круг */
+  display: block;
+  
 }
 
 .label {
+  display: flex;
+  flex-direction: wrap;
+  gap: 10px;
 }
 
 .options {
+
+}
+
+.span {
+  font-family: Montserrat sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  width: 80px;
 }

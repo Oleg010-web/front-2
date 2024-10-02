@@ -1,4 +1,7 @@
 .buttonsContainer {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
 }
 
 .clock {
@@ -11,4 +14,30 @@
 }
 
 .more {
+}
+
+.stringMonth {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #00000080;
+}
+
+.stringDate {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #00000080;
+}
+
+.day{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
 }

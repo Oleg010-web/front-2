@@ -5,19 +5,78 @@
 }
 
 .users {
+  max-width: 610px;
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+  border: none; 
 }
 
 .buttonsContainer {
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
 }
 
 .container {
 }
 
 .thead {
+  background: #E5E5E5;
+  padding: 10px;
+  border: none;
 }
 
 .nameCol {
+  width: 310px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+  padding: 10px;
+  border: none;
+  margin: 0;
 }
 
 .ageCol {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+
+.btn{
+  width: 70px;
+  border: 1px solid #0066CC;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  
+}
+
+.nameColSecondary{
+  padding: 10px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.ageColSecondary{
+  border-bottom: 1px solid #E5E5E5;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  border-left: none;
+}
+
+.primary{
+  width: 90px;
+  color: white;
+  border: 1px solid #0066CC;
 }
